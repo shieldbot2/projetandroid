@@ -1,22 +1,48 @@
 html {
-  
+
   max-width: 100%;
 }
 header {
   background: #222;
   color: white;
-  padding: 12px;
+  padding: 50px;
 }
 nav {
-  position: absolute;
-  top: 30px;
+  /*position: absolute;
+  top: 30px;*/
   /*left: calc((100% - 1000px)/2);*/
   font-size: 15px;
   display: flex;
   flex-direction: row;
+  position: relative;
+  left: 500px;
+  top: -30px;
 }
 a {
   text-decoration: none;
   align-self: flex-end;
 
+}
+.red {
+  padding: 20px;
+  background: #f0454c;;
+  color: white;
+  height: 60px;
+  width: 150px;
+  border-radius: 10px;
+  margin-left: 26px;
+  font-family: 'Montserrat', sans-serif;
+  transition: 0.2s;
+}
+
+.wrapper {
+   background-image: url(../images/Roger2.jpg);
+   background-size: 100% 75%;
+   background-attachment: fixed;
+   width: 400vw;
+   height: 200vh;
+   background-repeat: no-repeat;
+}
+div {
+  max-width: 100%;
 }
