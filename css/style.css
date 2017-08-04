@@ -1,0 +1,77 @@
+body{
+  max-width:100%;
+}
+.flags{
+  border-radius: 30%;
+  width:20%;
+  height: 30px;
+}
+h2{
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+}
+table{
+  margin: 20px auto;
+  width:90%;
+  border-collapse: collapse;
+}
+
+thead{
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+}
+th{
+  height:100%;
+  font-family: 'Open Sans Condensed', sans-serif;
+  padding:10px 0;
+  text-align: left;
+  font-family:;
+}
+td {
+   border-bottom: 1px solid #ddd;
+}
+.padding{
+  padding-left: 20px;
+}
+.number{
+  color:DarkRed;
+  font-family:;
+  border-right:1px solid #ddd;
+  width:10%;
+  padding:0;
+}
+.player{
+  flex-basis: 70%;
+  font-family: 'Julee', cursive;
+  text-decoration:none;
+  font-weight: bold;
+  color:black;
+  padding-left:10%;
+  width:40%;
+}
+.name{
+  display:flex;
+  align-items: center;
+  border-right:1px solid #ddd;
+}
+.points{
+  color:DarkRed;
+}
+footer{
+margin: 10px auto;
+width:90%;
+display:flex;
+justify-content: space-between;
+}
+nav{
+  display:flex;
+  justify-content: space-between;
+  width:30%;
+}
+.social-media{
+  padding:0;
+  color:black;
+}
+a:hover{
+  color:lightblue;
+}
